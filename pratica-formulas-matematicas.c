@@ -2,29 +2,29 @@
 
 int main(){
 
+        
+        char nome[50];
+        float nota1, nota2, nota3, media;
 
-        int dia1, dia2, dia3, dia4, dia5;
-        int total, media, aumento_total, total_corrigido, por_caminhao;
+        printf("Digite o nome do aluno: ");
+        fgets(nome, 50, stdin); 
 
-        printf("Digite a produção do dia 1: \n");
-        scanf("%d\n", &dia1);
+        printf ("Digite a primeira nota: ");
+        scanf("%f", &nota1);
 
-        printf("Digite a produção do dia 2: \n");
-        scanf("%d\n", &dia2);
+        printf ("Digite a segunda nota: ");
+        scanf("%f", &nota2);
 
-        printf("Digite a produção do dia 3: \n");
-        scanf("%d\n", &dia3);
+        printf ("Digite a terceira nota: ");
+        scanf("%f", &nota3);
 
-        printf("Digite a produção do dia 4: \n");
-        scanf("%d\n", &dia4);
+        media = nota1 += nota2 += nota3 /= 3;
 
-        printf("Digite a produção do dia 5: \n");
-        scanf("%d\n", &dia5);
+        printf("\nAluno: %s", nome);
+        printf("Nota 1: %.2f\n", nota1);
+        printf("Nota 2: %.2f\n", nota2);
+        printf("Nota 3: %.2f\n", nota3);
+        printf("Média final: %.2f\n", media);
 
-        total = dia1 + dia2 + dia3 + dia4 + dia5;
-        media = total/ 5;
-
-        aumento_total = (dia1)
-
-
+        return 0;
 }
